@@ -1,11 +1,12 @@
-import React from 'react';
-
+import React , {Fragment} from 'react';
+import Header from './Components/Header'
 
 function About() {
     return (
-        <div>
+        <Fragment>
+            <Header />
             <p>Hello</p>
-        </div>
+        </Fragment>
     )
 }
 
