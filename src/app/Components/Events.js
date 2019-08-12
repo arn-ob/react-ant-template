@@ -6,7 +6,7 @@ import { Card, Col, Row } from 'antd';
 function Events() {
     return (
         <Fragment>
-            <div style={{ background: '#fbfbfb', padding: '30px' }}>
+            <div style={{ background: '#fbfbfb', padding: '30px', marginTop: 20}}>
                 <Row gutter={16}>
                     <Col span={8}>
                         <Card title="Card title" bordered={false}>

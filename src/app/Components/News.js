@@ -1,11 +1,14 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css';
+import { Divider } from 'antd';
+
 
 function News() {
     return (
         <Fragment>
             <div class="container mt-5">
+                <Divider>Events</Divider>
                 <div class="row mb-2">
                     <div class="col-md-6">
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">

@@ -9,9 +9,12 @@ import News from './Components/News'
 import Events from './Components/Events'
 import AboutUs from './Components/AboutUs'
 
+
+
 function Index() {  
   return (
     <Fragment>
+      <img alt="heading" src="http://clagnut.com/sandbox/imagetests/wideimg.png" height="100px" width="100%" />
       <Header />
       <IndexSlider />
       <Events />

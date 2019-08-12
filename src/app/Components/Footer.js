@@ -1,12 +1,15 @@
 import React, { Fragment } from 'react';
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css';
+import { Divider } from 'antd';
 
 
 function Footer() {
     return (
         <Fragment>
-            <footer class="container pt-4 my-md-5 pt-md-5">
+            <Divider />
+            
+            <footer class="container pt-4 my-md-5 pt-md-5 mt-5">
                 <div class="row">
                     
                     <div class="col-12 col-md">
